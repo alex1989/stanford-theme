@@ -86,6 +86,11 @@ $link-color-d1: $dark-red;
 $link-hover: $cardinal-light;
 $site-status-color: $cardinal-bg;
 
+$courseware-border-bottom-color: $beige-60;
+$courseware-button-border-color: $beige-60;
+$courseware-hover-color: $cardinal-light;
+$courseware-navigation-color: $dark-red;
+
 $header-graphic-super-color: $dark-red;
 $header-graphic-sub-color: $lighter-base-font-color;
 
@@ -230,3 +235,7 @@ $video-thumb-url: '../themes/stanford/images/stanford-video-thumb.png';
     color: $white;
 }
 
+header.global-new .nav-global,
+header.global-new .nav-courseware {
+    margin-top: 5px;
+}
